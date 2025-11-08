@@ -13,7 +13,7 @@ html {
 .page {
   display: flex;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
   box-sizing: border-box;
   margin: auto;
   color: #fff;
@@ -59,12 +59,10 @@ ol {
 
 .content {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
   align-items: end;
   gap: 32px;
   width: 711px;
-  margin-top: 60px;
-  margin-left: 30px;
 }
 
 .result__video-container,
@@ -99,7 +97,7 @@ ol {
 }
 
 .button:focus-visible {
-  outline: 2px solid #fff;
+  outline: 1px solid #fff;
   outline-offset: 2px;
 }
 
@@ -373,4 +371,5 @@ ol {
 .more-button {
   width: 100%;
   margin-bottom: 3px;
+  padding: 5px;
 }
